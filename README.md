@@ -17,6 +17,12 @@ python -m coverage html -i --omit=conf/settings.py
 mypy .
 ```
 
+## Run
+
+```
+cd ui && uvicorn main:app --reload
+```
+
 ## For Cursor users
 
 Add to Cursor docs:
