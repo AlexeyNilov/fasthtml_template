@@ -5,7 +5,6 @@ __pycache__
 .vscode
 *.log
 rnd.py
-cache
 conf/settings.py
 *.sqlite
 *.sqlite*
