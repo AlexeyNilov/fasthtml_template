@@ -27,3 +27,5 @@ cd ui && uvicorn main:app --reload
 
 Add to Cursor docs:
 * https://docs.fastht.ml/llms-ctx.txt
+* https://answerdotai.github.io/fastlite/index.html.md
+* https://htmx.org/docs/
