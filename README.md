@@ -1,6 +1,6 @@
 # Fasthtml template
 
-I use this template for rapid PoC of simple web application based on fasthtml, fastlite, htmx
+This template provides a quick setup for building simple web application prototypes (PoCs) using Fasthtml, Fastlite, and HTMX. It is designed for rapid development, helping you streamline the process of testing and iterating on ideas.
 
 ## Install
 
