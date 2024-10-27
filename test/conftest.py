@@ -1,12 +1,13 @@
 import os
+import pytest
 
-os.environ["PUSHUP_DB_PATH"] = "db/test_empty.sqlite"
+os.environ["TEMPLATE_DB_PATH"] = "db/test_empty.sqlite"
 
 from sqlite_minutils.db import Database
 from data.fastlite_db import recreate_db, DB
 
 
 @pytest.fixture
-def empty_db() -> Database:  # TODO use in mem db?
+def db_with_tables() -> Database:
     recreate_db(DB)
     return DB

@@ -19,10 +19,10 @@ sample_structure = dict(
 
 
 def create_sample_table(db=DB) -> fl.Table:
-    event = db.t.event
-    if event not in db.t:
-        event.create(sample_structure, pk="id")
-    return event
+    s = db.t.sample
+    if s not in db.t:
+        s.create(sample_structure, pk="id")
+    return s
 
 
 TABLES: Dict[str, Callable] = {

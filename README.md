@@ -5,6 +5,7 @@ I use this template for rapid PoC of simple web application based on fasthtml, f
 ## Install
 
 TODO add creating from template and renaming
+TODO rename TEMPLATE_DB_PATH and db name
 
 ```
 source .venv/bin/activate

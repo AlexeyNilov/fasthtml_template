@@ -1,4 +1,7 @@
-from data.fastlite_db import DB
+from data.fastlite_db import DB, prepare_db
+
+
+prepare_db()
 
 
 def write_schema(file_path: str, tables: list[str]) -> None:
